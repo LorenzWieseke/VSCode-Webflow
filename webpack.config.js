@@ -1,7 +1,7 @@
 const path = require("path");
  
 module.exports = {
-  mode: "production",
+  mode: "development",
   entry: {
     ["global"]: "./src/index.js",
     // ["home-page"]: "./src/home-page.js",

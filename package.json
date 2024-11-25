@@ -1,0 +1,17 @@
+{
+  "name": "vs-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "dev": "concurrently \"webpack --watch --progress\" \"npx serve dist\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "webpack-cli": "^5.1.4",
+    "concurrently": "^7.0.0"
+  }
+}

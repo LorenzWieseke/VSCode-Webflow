@@ -2,9 +2,15 @@
 
 ## Description
 
-This project helps users write code in VS Code and use it inside Webflow. It bundles the code files from the `src` directory using Webpack and serves them using `npx serve`.
+This project helps users write code in VS Code and use it inside Webflow.
 
-Simply copy the line <script src="http://localhost:3000/global.js"></script> to your page settings and publish your page.
+Simply edit the code in the index.js inside the src folder. 
+
+The files inside the scr folder will be bundled and served in the dist folder. 
+
+Then just copy the line <script src="http://localhost:3000/global.js"></script> to your page settings in Webflow and publish your page. 
+
+Any changes you make in the code will update directly on your page.
 
 ## Getting Started
 
@@ -15,21 +21,8 @@ Simply copy the line <script src="http://localhost:3000/global.js"></script> to 
 
 ### Installation
 
-1. Clone the repository:
-    ```sh
-    git clone <repository-url>
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd vs-code
-    ```
-3. Install the dependencies:
-    ```sh
-    npm install
-    ```
+1. Install the dependencies:
+    open terminal and enter "npm install"
 
-### Usage
-
-To bundle the code files from the `src` directory and serve them, run the following command:
-```sh
-npm run dev
+2. Bundle and Serve:
+    inside terminal enter "npm run dev"

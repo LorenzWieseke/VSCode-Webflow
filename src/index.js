@@ -18,7 +18,7 @@ const bindBtnsToSpline = (splineViewer) => {
                 // Check if the attribute name matches a variable in the Spline scene
                 if (variables.hasOwnProperty(attrName)) {
                     console.log(`Setting variable ${attrName} to ${attrValue}`);
-                    app.setVariables({ [attrName]: parseInt(attrValue) });
+                    app.setVariables({ [attrName]: attrValue });
                 } 
             }
         });
